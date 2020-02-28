@@ -1,0 +1,393 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+.header-box{
+	width: 1024px;
+	margin: 0 auto;
+}
+.header-logo{
+	height: 70px;
+    margin: 0;
+    float: left;
+}
+.nav-list-item{
+	list-style: none;
+	float: right;
+	margin: auto 30px;
+	font-size: 16px;
+	color: #FAFAFA;
+	line-height: 70px;
+}
+main{
+	width: 100%;
+	height: auto;
+}
+.main-visual{
+	width: 100%;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+}
+.main-visual-title{
+	font-size: 64px;
+	color: #FAFAFA;
+	padding-top: 200px;
+	text-align: center;
+	font-weight: bold;
+}
+.main-visual-text{
+	font-size: 20px;
+	color: #FAFAFA;
+	margin: 10px auto;
+	text-align: center;
+}
+.portfolio{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	background-color: #ECEFF1;
+	padding-bottom: 80px;
+}
+.title{
+	font-size: 32px;
+	color: #000;
+	margin: 0 auto;
+	padding: 90px 0 8px;
+	text-align: center;
+}
+.border{
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F;
+	margin: 0 auto;
+}
+.text{
+	text-align: center;
+	margin: 30px auto;
+	font-size: 16px;
+	color: #000;
+}
+.portfolio-boxes{
+	height: auto;
+	width: 940px;
+	margin: 0 auto;
+}
+.portfolio-image{
+	height: 250px;
+	width: 300px;
+	float: left;
+	background-size: cover;
+	background-position: center;
+}
+.img1{
+	margin: 0 10px 10px 0;
+	background-image: url(img/sketch.jpg);
+}
+.img2{
+	background-image: url(img/websuku.png);
+    margin: 0 10px 10px 0;
+}
+.img3{
+	background-image: url(img/write.jpg);
+    margin: 0 10px 10px 0;
+}
+.img4{
+	background-image: url(img/webcamp.png);
+    margin-right: 10px;
+}
+.img5{
+	background-image: url(img/talk.jpg);
+    margin-right: 10px;
+}
+.img6{
+	background-image: url(img/webcamp-mother.png);
+    margin: 0;
+}
+.feature{
+	width: 100%;
+	height: auto;
+	padding: 90px auto;
+}
+.feature-boxes{
+    width: 980px;
+    height: auto;
+    margin: 0 auto;
+}
+.feature-box1{
+	height: auto;
+	width: 320px;
+	margin-right:10px;
+	margin-bottom: 90px;
+	float: left;
+}
+.feature-box2{
+	height: auto;
+	width: 320px;
+	margin-right:10px;
+	margin-bottom: 90px;
+	float: left;
+}
+.feature-box3{
+	height: auto;
+	width: 320px;
+	margin-bottom: 90px;
+	float: left;
+}
+.social-feature{
+	font-size: 60px;
+	margin: auto;
+	text-align: center;
+}
+.social-feature i{
+	display: inline-block;
+}
+.feature-title{
+	font-size: 20px;
+	color: #000;
+	margin: 10px auto;
+	text-align: center;
+}
+.feature-text{
+	width: 320px;
+}
+.profile{
+	width: 100%;
+	background-color: #eceff1;
+}
+.profile-box{
+	width: 1024px;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+.profile-image-box{
+	width: 512px;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+.profile-image{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.profile-text-box{
+	width: 512px;
+	height: auto;
+	float: left;
+}
+.myname{
+	font-size: 20px;
+}
+.myname-text{
+	font-size: 16px;
+	color: #000;
+	margin-top: 5px;
+}
+.myskills{
+	font-size: 20px;
+	margin-top: 20px;
+}
+.myskills-text{
+	font-size: 16px;
+	color: #000;
+	margin-top: 5px;
+}
+.contact-box{
+	width: 800px;
+	height: auto;
+	margin: 0 auto;
+}
+.contact-box1{
+	width: 400px;
+	height: auto;
+	margin: 0 auto 90px;
+	float: left;
+}
+.contact-box1-box{
+	width: 130px;
+	margin: 0 auto;
+	text-align: left;
+}
+.mail{
+	font-size: 20px;
+}
+.mail-address{
+	margin-top: 5px;
+	text-decoration: underline;
+}
+.tel{
+	font-size: 20px;
+	margin-top: 20px;
+}
+.tel-number{
+	margin-top: 5px;
+	text-decoration: underline;
+}
+.contact-box2{
+	width: 400px;
+	height: auto;
+	float: left;
+    margin: 0 auto 90px;
+}
+.contact-box2-box{
+	width: 200px;
+	height: 100px;
+	margin: 0 auto;
+}
+.sns{
+	font-size: 20px;
+}
+.fab, .far {
+    font-weight: 400;
+    font-size: 50px;
+    margin: 5px 20px 0 0;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: #EC715F;
+}
+.footer-text{
+	text-align: center;
+	font-size: 16px;
+	line-height: 60px;
+	color: #FAFAFA;
+}
+@media screen and (max-width:767px){
+   body{
+   	width: 100%;
+   	margin: 0 auto;
+   }
+   header{
+	width: 100%;
+	height: 50px;
+	background-color: #EC715F;
+   }
+   .header-box{
+	width: 90%;
+	margin: 0 auto;
+   }
+   .header-logo{
+	height: 50px;
+    margin: 0;
+    float: none;
+   }
+   .menu-box {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-right: 5%;
+    border: 1px solid #FAFAFA;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   }
+   .list-bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+    background-color: #FAFAFA;
+   }
+   .list-bar:nth-child(1){
+    margin-top: 10px;
+   }
+   .nav-list-item{
+	display: none;
+   }
+   .main-visual{
+	background-image: url(img/code.png);
+	background-size: cover;
+	background-position: center;
+   }
+   .main-visual-title{
+	font-size: 40px;
+   }
+   .main-visual-text{
+	font-size: 18px;
+   }
+   .text{
+   	padding: 0 5%;
+   }
+   .portfolio-boxes{
+	width: 90%;
+   }
+   .portfolio-image{
+	float: none;
+	margin: 0 auto 10px;
+   }
+   .portfolio-image:nth-child(2n-1){
+   	height: 0;
+   }
+   .feature-boxes{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+   }
+   .feature-box1{
+   	float: none;
+   	margin: 0 auto;
+   }
+   .feature-box2{
+   	float: none;
+   	margin: 0 auto;
+   }
+   .feature-box3{
+   	float: none;
+   	margin: 0 auto 90px;
+   }
+   .profile-box{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 90px;
+   }
+   .profile-image-box{
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+   }
+    .profile-text-box{
+	width: 512px;
+	height: auto;
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+   }
+   .contact-box{
+	width: 100%;
+	padding-top: 30px;
+   }
+   .contact-box1{
+	margin: 0 auto;
+	float: none;
+   }
+   .contact-box1-box{
+	text-align: center;
+   }
+   .contact-box2{
+   	width: 100%;
+	float: none;
+    margin: 20px auto 90px;
+    text-align: center;
+   }
+   .fab, .far {
+    margin-right: 8px;
+    font-size: 50px;
+   }
+}
