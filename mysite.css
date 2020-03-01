@@ -334,7 +334,7 @@ footer{
    }
    .portfolio-boxes{
 	width: 90%;
-	padding: 90px;
+	padding: 90px 0;
    }
    .portfolio-image{
 	float: none;
@@ -373,12 +373,13 @@ footer{
 	padding-bottom: 90px;
    }
    .profile-image-box{
+   	width: 90%;
 	float: none;
 	text-align: center;
 	margin: 0 auto;
    }
     .profile-text-box{
-	width: 512px;
+	width: 90%;
 	height: auto;
 	float: none;
 	text-align: center;
