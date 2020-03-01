@@ -123,7 +123,6 @@ main{
 .feature{
 	width: 100%;
 	height: auto;
-	padding: 90px auto;
 }
 .feature-boxes{
     width: 980px;
@@ -229,17 +228,17 @@ main{
 }
 .mail{
 	font-size: 20px;
+	padding-bottom: 5px;
 }
 .mail-address{
-	margin-top: 5px;
 	text-decoration: underline;
 }
 .tel{
 	font-size: 20px;
 	margin-top: 20px;
+	padding-bottom: 5px;
 }
 .tel-number{
-	margin-top: 5px;
 	text-decoration: underline;
 }
 .contact-box2{
@@ -327,11 +326,15 @@ footer{
    .main-visual-text{
 	font-size: 18px;
    }
+   .portfolio{
+	padding: 0 5%;
+   }
    .text{
-   	padding: 0 5%;
+   	width: 90%;
    }
    .portfolio-boxes{
 	width: 90%;
+	padding: 90px;
    }
    .portfolio-image{
 	float: none;
@@ -339,6 +342,9 @@ footer{
    }
    .portfolio-image:nth-child(2n-1){
    	height: 0;
+   }
+   .feature{
+   	padding: 0 5%;
    }
    .feature-boxes{
     width: 100%;
@@ -357,6 +363,9 @@ footer{
    	float: none;
    	margin: 0 auto 90px;
    }
+   .profile{
+   	padding: 0 5%;
+   }
    .profile-box{
 	width: 90%;
 	height: auto;
@@ -374,6 +383,9 @@ footer{
 	float: none;
 	text-align: center;
 	margin: 20px auto 0;
+   }
+   .contact{
+   	padding: 0 5%;
    }
    .contact-box{
 	width: 100%;
